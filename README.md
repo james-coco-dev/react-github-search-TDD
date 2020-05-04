@@ -7,10 +7,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   git clone https://github.com/super-talent-aj/react-github-search-TDD.git
   cd react-github-search-TDD
   npm install
-  npm start
+```
+
+## Building
+```
   npm run build
+```
+
+## Running
+```
+  npm start
   npm run server
 ```
+
 ## Testing
 ```
   npm run test
