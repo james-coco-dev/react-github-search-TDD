@@ -6,13 +6,11 @@ import SearchInput from './SearchInput';
 
 describe('main container testing', () => {
   let shallowWrapper;
-  let mountWrapper;
   const onSearchTestHandler = jest.fn();
   const searchInput = mount(<SearchInput onSearch={onSearchTestHandler} />)
 
   beforeEach(() => {
     shallowWrapper = shallow(<Main />);
-    mountWrapper = mount(<Main />);
   });
 
   it('Main should render correctly', () => {

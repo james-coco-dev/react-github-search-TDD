@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { mount, shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import SearchInput from './index';
 
 const onSearchTestHandler = jest.fn();

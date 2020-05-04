@@ -1,9 +1,7 @@
 
 import React from 'react';
-import { mount, shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import User from './index';
-
-const onSearchTestHandler = jest.fn();
 
 describe('user testing', () => {
   let wrapper;
