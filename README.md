@@ -1,5 +1,8 @@
 # Github search API Integration Project with React.js
-This is a demo project to get user information using github search api with react.js based on Test-Driven Development approach.
+
+[Live Demo](https://react-github-search-tdd.now.sh/)
+
+This is a demo app to get user information using github search api with react.js based on Test-Driven Development approach.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation
