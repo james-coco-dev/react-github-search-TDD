@@ -6,6 +6,8 @@ import SearchInput from './SearchInput';
 import User from './User';
 import { Root, FlexContainer, LoadingWrapper } from './styles';
 
+const BASE_URL = 'http://api.github.com/users/';
+
 const Main = () => {
 
   const [user, setUser] = useState(null);
@@ -14,7 +16,7 @@ const Main = () => {
   const onSearchHandler = React.useCallback(userName => {
     setLoading(true);
     setTimeout( () => {
-      fetch(`http://api.github.com/users/${userName}`)
+      fetch(`${BASE_URL}${userName}`)
       .then(response => response.json())
       .then(data => {
         setUser(data)
