@@ -5,8 +5,7 @@ import Loading from '../../components/Loading';
 import SearchInput from './SearchInput';
 import User from './User';
 import { Root, FlexContainer, LoadingWrapper } from './styles';
-
-const BASE_URL = 'http://api.github.com/users/';
+import { BASE_URL } from '../../utils/constants';
 
 const Main = () => {
 
